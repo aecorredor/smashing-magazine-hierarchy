@@ -1,0 +1,109 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1400px;
+  height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+header {
+  width: 1000px;
+  height: 80px;
+}
+
+.lt-nav {
+  width: 200px;
+  height: 100%;
+  float: left;
+}
+
+.main-content {
+  width: 800px;
+  height: 100%;
+  float: left;
+}
+
+.rt-col {
+  width: 400px;
+  height: 100%;
+  float: right;
+}
+
+.logo {
+  float: left;
+  margin-top: 9px;
+  margin-left: 9px;
+  width: 180px;
+  height: 60px;
+  border-radius: 5px;
+  background: rgb(93, 93, 93);
+}
+
+nav {
+  width: 780px;
+  height: 60px;
+  border-radius: 5px;
+  float: right;
+  margin-top: 9px;
+  margin-right: 10px;
+  background: rgb(215, 212, 212);
+}
+
+.category {
+  width: 170px;
+  height: 200px;
+  margin: 12px auto;
+  border-radius: 5px;
+  background-color: rgb(158, 158, 158);
+}
+
+.main-content article {
+  width: 700px;
+  height: 600px;
+  margin: 12px auto;
+  border-radius: 5px;
+  background-color: rgb(52, 52, 52);
+}
+
+.search {
+  width: 370px;
+  height: 50px;
+  margin: 70px auto 0 auto;
+  border-radius: 5px;
+  background-color: rgb(119, 118, 118);
+}
+
+.big-ad {
+  width: 370px;
+  height: 150px;
+  border-radius: 5px;
+  margin: 40px auto 0 auto;
+  background-color: rgb(41, 40, 40);
+}
+
+.smaller-ads {
+  width: 370px;
+  height: 150px;
+  margin: 5px auto 0 auto;
+}
+
+.small-ad {
+  display: inline-block;
+  width: 183px;
+  height: 150px;
+  border-radius: 5px;
+  background-color: rgb(41, 40, 40);
+}
+
+.newsletter {
+  width: 370px;
+  height: 200px;
+  margin: 20px auto 20px auto;
+  border-radius: 5px;
+  background-color: rgb(204, 198, 198);
+}
